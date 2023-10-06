@@ -1,0 +1,533 @@
+{
+	"info": {
+		"_postman_id": "a0600466-c741-4cc2-953c-cdf4495b29cb",
+		"name": "Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25940347"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Smit Sohagiya",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "smitsohagiya81@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Smit@8181",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/api/auth/register",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "smitsohagiya81@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Smit@8181",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/api/auth/login",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Forgot Password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "smitsohagiya81@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/api/auth/forgot-password",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"auth",
+						"forgot-password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Profile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZGM3Y2FmZjZlMDJkMTA1NWQyYzciLCJlbWFpbCI6InNtaXRzb2hhZ2l5YTgxQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwidG9rZW4iOiI3MjMzNWM3NDIwOGVhMmIxNjJmZTgxMzY3MmIwY2RkMWVkYTlhMmI0NTg0YjE1YzY0ZWMyODBmNzBmNjMxN2JkODg4Nzk2MjcxYjQ0MjgyMWNiNmNkYWRlMjlhY2QzOWNmM2JmIiwiaWF0IjoxNjk2NTg2OTM4LCJleHAiOjE2OTY2NzMzMzh9.u82qLzjz-rR1yENNE12cCkTVrdTlOczMavfJVQkIUPo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZGM3Y2FmZjZlMDJkMTA1NWQyYzciLCJlbWFpbCI6InNtaXRzb2hhZ2l5YTgxQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwidG9rZW4iOiI3MjMzNWM3NDIwOGVhMmIxNjJmZTgxMzY3MmIwY2RkMWVkYTlhMmI0NTg0YjE1YzY0ZWMyODBmNzBmNjMxN2JkODg4Nzk2MjcxYjQ0MjgyMWNiNmNkYWRlMjlhY2QzOWNmM2JmIiwiaWF0IjoxNjk2NTg2OTM4LCJleHAiOjE2OTY2NzMzMzh9.u82qLzjz-rR1yENNE12cCkTVrdTlOczMavfJVQkIUPo",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Smit Patel",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "smitsohagiya81@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/api/update-profile",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"update-profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin- login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "admin@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Admin@1234",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/admin/auth/login",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"admin",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create product",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZGM1ZTM3N2IzOWNmNjk4YzE3NWUiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMjliOGRmY2IzOWFiODAzNDdhYzJiOGNlNzczNzM3NmFiYWRmZjJjYzQxMDBhZWI5MjU3ZjllMTEzYjNhYWE0MzA4ZDZlYjk3M2EzZmMzNzVhYzJhMjZlNDJlMmY2MDllYzY2MSIsImlhdCI6MTY5NjU4Njk4OSwiZXhwIjoxNjk2NjczMzg5fQ.nm-FCrKcTd4cDu8_wkOKXaeFf8Vwq-SDABAv9zneVZ8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmYTliMzgyZTFmYWNkNDdhYjdjMzAiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMTY3NGI0MjdiNzU0NWJmZjY3MWRjNDk2OTM1M2ZjOTAxY2E2ZmMzYmQzYTYyNzE0ODcxNWRlOTZlNjQ3ZDNkYzhlYjhkYjRhYWViNmExMDY3MTlmZjYzNTVjYjEwNTNlNGE4ZCIsImlhdCI6MTY5NjU3Njc5MywiZXhwIjoxNzI4MTEyNzkzfQ.LsHHadmZuenkJON7GtszlY_9LzFBAsUtRNlGlCIZknc",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 9.53.13 AM.png"
+						},
+						{
+							"key": "title",
+							"value": "kshfdnfdf",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "discountPrice",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "sfdfdfd",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 10.41.00 AM.png",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/admin/products",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"admin",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update product",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZGM1ZTM3N2IzOWNmNjk4YzE3NWUiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMjliOGRmY2IzOWFiODAzNDdhYzJiOGNlNzczNzM3NmFiYWRmZjJjYzQxMDBhZWI5MjU3ZjllMTEzYjNhYWE0MzA4ZDZlYjk3M2EzZmMzNzVhYzJhMjZlNDJlMmY2MDllYzY2MSIsImlhdCI6MTY5NjU4Njk4OSwiZXhwIjoxNjk2NjczMzg5fQ.nm-FCrKcTd4cDu8_wkOKXaeFf8Vwq-SDABAv9zneVZ8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmYTliMzgyZTFmYWNkNDdhYjdjMzAiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMTY3NGI0MjdiNzU0NWJmZjY3MWRjNDk2OTM1M2ZjOTAxY2E2ZmMzYmQzYTYyNzE0ODcxNWRlOTZlNjQ3ZDNkYzhlYjhkYjRhYWViNmExMDY3MTlmZjYzNTVjYjEwNTNlNGE4ZCIsImlhdCI6MTY5NjU3Njc5MywiZXhwIjoxNzI4MTEyNzkzfQ.LsHHadmZuenkJON7GtszlY_9LzFBAsUtRNlGlCIZknc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 9.53.13 AM.png"
+						},
+						{
+							"key": "title",
+							"value": "kshfdnfdf",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "discountPrice",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "sfdfdfd fdfdsfg",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 10.41.00 AM.png",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/admin/products/651fdd03aff6e02d1055d2d8",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"admin",
+						"products",
+						"651fdd03aff6e02d1055d2d8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete product",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZGM1ZTM3N2IzOWNmNjk4YzE3NWUiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMjliOGRmY2IzOWFiODAzNDdhYzJiOGNlNzczNzM3NmFiYWRmZjJjYzQxMDBhZWI5MjU3ZjllMTEzYjNhYWE0MzA4ZDZlYjk3M2EzZmMzNzVhYzJhMjZlNDJlMmY2MDllYzY2MSIsImlhdCI6MTY5NjU4Njk4OSwiZXhwIjoxNjk2NjczMzg5fQ.nm-FCrKcTd4cDu8_wkOKXaeFf8Vwq-SDABAv9zneVZ8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmYTliMzgyZTFmYWNkNDdhYjdjMzAiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMTY3NGI0MjdiNzU0NWJmZjY3MWRjNDk2OTM1M2ZjOTAxY2E2ZmMzYmQzYTYyNzE0ODcxNWRlOTZlNjQ3ZDNkYzhlYjhkYjRhYWViNmExMDY3MTlmZjYzNTVjYjEwNTNlNGE4ZCIsImlhdCI6MTY5NjU3Njc5MywiZXhwIjoxNzI4MTEyNzkzfQ.LsHHadmZuenkJON7GtszlY_9LzFBAsUtRNlGlCIZknc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/admin/products/651fdd03aff6e02d1055d2d8",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"admin",
+						"products",
+						"651fdd03aff6e02d1055d2d8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get product",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmOWNlODUxNTU2ZTQ3NmFmNjMzN2IiLCJlbWFpbCI6InNtaXRzb2hhZ2l5YTgxQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwidG9rZW4iOiJhZTIxYTM5MjBkN2NkNGMzODUyNWQ0MzBhZjJlODliOWI1YmJmMGNhMDg0MjJkZGQzMzNiMWNmYzQ4N2NjM2E4MDQzMGEzY2U4MjBiZjNlNGU1MzhjMmI0ZmRmNWNhYWRlNmNhIiwiaWF0IjoxNjk2NTgxOTQ0LCJleHAiOjE3MjgxMTc5NDR9.M6mvhsQCBRES81XcMTCbPOfUK3F9pQGCmkh7Cb3JgXM",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 9.53.13 AM.png"
+						},
+						{
+							"key": "title",
+							"value": "kshfdnfdf",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "discountPrice",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "sfdfdfd fdfdsfg",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 10.41.00 AM.png",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/admin/products",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"admin",
+						"products"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "perPage",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Purchase Product",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZGM1ZTM3N2IzOWNmNjk4YzE3NWUiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMjliOGRmY2IzOWFiODAzNDdhYzJiOGNlNzczNzM3NmFiYWRmZjJjYzQxMDBhZWI5MjU3ZjllMTEzYjNhYWE0MzA4ZDZlYjk3M2EzZmMzNzVhYzJhMjZlNDJlMmY2MDllYzY2MSIsImlhdCI6MTY5NjU4Njk4OSwiZXhwIjoxNjk2NjczMzg5fQ.nm-FCrKcTd4cDu8_wkOKXaeFf8Vwq-SDABAv9zneVZ8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "product_id",
+							"value": "651fdd23aff6e02d1055d2dd",
+							"type": "text"
+						},
+						{
+							"key": "quantity",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/api/purchase-product",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"purchase-product"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
