@@ -24,7 +24,7 @@ export async function purchaseProduct(req: Request, res: Response) {
 
     //@ts-ignore
     const payloadTokenUserId = req.token_payload._id;
-    const { product_id, quantity } = req.body;
+    const { product_id, quantity, total_price } = req.body;
     const product = await Product.findById(product_id);
 
     if (!product) {
@@ -39,7 +39,7 @@ export async function purchaseProduct(req: Request, res: Response) {
         );
     }
 
-    if(product.stock === 0){
+    if(product.stock === 0 || quantity > product.stock){
       return res
       .status(200)
       .send(
@@ -55,6 +55,7 @@ export async function purchaseProduct(req: Request, res: Response) {
       user_id: payloadTokenUserId,
       product_id,
       quantity,
+      total_price
     });
     await order.save();
 

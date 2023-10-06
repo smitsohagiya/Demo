@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "a0600466-c741-4cc2-953c-cdf4495b29cb",
-		"name": "Demo",
+		"_postman_id": "bfc428e6-a76a-406a-98c6-5e83a3a49ba3",
+		"name": "Demo Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "25940347"
 	},
@@ -125,14 +125,7 @@
 					]
 				},
 				"method": "POST",
-				"header": [
-					{
-						"key": "authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZGM3Y2FmZjZlMDJkMTA1NWQyYzciLCJlbWFpbCI6InNtaXRzb2hhZ2l5YTgxQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwidG9rZW4iOiI3MjMzNWM3NDIwOGVhMmIxNjJmZTgxMzY3MmIwY2RkMWVkYTlhMmI0NTg0YjE1YzY0ZWMyODBmNzBmNjMxN2JkODg4Nzk2MjcxYjQ0MjgyMWNiNmNkYWRlMjlhY2QzOWNmM2JmIiwiaWF0IjoxNjk2NTg2OTM4LCJleHAiOjE2OTY2NzMzMzh9.u82qLzjz-rR1yENNE12cCkTVrdTlOczMavfJVQkIUPo",
-						"type": "text",
-						"disabled": true
-					}
-				],
+				"header": [],
 				"body": {
 					"mode": "urlencoded",
 					"urlencoded": [
@@ -205,58 +198,45 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZGM1ZTM3N2IzOWNmNjk4YzE3NWUiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMjliOGRmY2IzOWFiODAzNDdhYzJiOGNlNzczNzM3NmFiYWRmZjJjYzQxMDBhZWI5MjU3ZjllMTEzYjNhYWE0MzA4ZDZlYjk3M2EzZmMzNzVhYzJhMjZlNDJlMmY2MDllYzY2MSIsImlhdCI6MTY5NjU4Njk4OSwiZXhwIjoxNjk2NjczMzg5fQ.nm-FCrKcTd4cDu8_wkOKXaeFf8Vwq-SDABAv9zneVZ8",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZjA3ZGUwNTAwNzhlOWQ2Nzc1NWYiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiZjFiY2QzNDc1MzBiY2YzYmY1ZjliMmUxMzgwNTE0OGQzZTJhNDdjNzI4NThhMmVmNDYyYTg0ZTk4NWI4NmUzMTRmYmJjZmVlZTY1ZjhlZmUyMDQ5MTA1MDY5OGQ4YTg1YWVkMyIsImlhdCI6MTY5NjU5MjAzNCwiZXhwIjoxNjk2Njc4NDM0fQ.2VZLxJMovh9XbhXYCx_z8y-WclHOv2EIOByOI80Xb6U",
 							"type": "string"
 						}
 					]
 				},
 				"method": "POST",
-				"header": [
-					{
-						"key": "authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmYTliMzgyZTFmYWNkNDdhYjdjMzAiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMTY3NGI0MjdiNzU0NWJmZjY3MWRjNDk2OTM1M2ZjOTAxY2E2ZmMzYmQzYTYyNzE0ODcxNWRlOTZlNjQ3ZDNkYzhlYjhkYjRhYWViNmExMDY3MTlmZjYzNTVjYjEwNTNlNGE4ZCIsImlhdCI6MTY5NjU3Njc5MywiZXhwIjoxNzI4MTEyNzkzfQ.LsHHadmZuenkJON7GtszlY_9LzFBAsUtRNlGlCIZknc",
-						"type": "text",
-						"disabled": true
-					}
-				],
+				"header": [],
 				"body": {
 					"mode": "formdata",
 					"formdata": [
 						{
 							"key": "images",
 							"type": "file",
-							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 9.53.13 AM.png"
+							"src": []
 						},
 						{
 							"key": "title",
-							"value": "kshfdnfdf",
+							"value": "Phone",
 							"type": "text"
 						},
 						{
 							"key": "price",
-							"value": "10",
+							"value": "10000",
 							"type": "text"
 						},
 						{
 							"key": "discountPrice",
-							"value": "5",
+							"value": "7500",
 							"type": "text"
 						},
 						{
 							"key": "description",
-							"value": "sfdfdfd",
+							"value": "Phone",
 							"type": "text"
 						},
 						{
 							"key": "stock",
 							"value": "2",
 							"type": "text"
-						},
-						{
-							"key": "images",
-							"type": "file",
-							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 10.41.00 AM.png",
-							"disabled": true
 						}
 					]
 				},
@@ -288,51 +268,39 @@
 					]
 				},
 				"method": "PUT",
-				"header": [
-					{
-						"key": "authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmYTliMzgyZTFmYWNkNDdhYjdjMzAiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMTY3NGI0MjdiNzU0NWJmZjY3MWRjNDk2OTM1M2ZjOTAxY2E2ZmMzYmQzYTYyNzE0ODcxNWRlOTZlNjQ3ZDNkYzhlYjhkYjRhYWViNmExMDY3MTlmZjYzNTVjYjEwNTNlNGE4ZCIsImlhdCI6MTY5NjU3Njc5MywiZXhwIjoxNzI4MTEyNzkzfQ.LsHHadmZuenkJON7GtszlY_9LzFBAsUtRNlGlCIZknc",
-						"type": "text"
-					}
-				],
+				"header": [],
 				"body": {
 					"mode": "formdata",
 					"formdata": [
 						{
 							"key": "images",
 							"type": "file",
-							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 9.53.13 AM.png"
+							"src": []
 						},
 						{
 							"key": "title",
-							"value": "kshfdnfdf",
+							"value": "Phone",
 							"type": "text"
 						},
 						{
 							"key": "price",
-							"value": "10",
+							"value": "10000",
 							"type": "text"
 						},
 						{
 							"key": "discountPrice",
-							"value": "5",
+							"value": "7500",
 							"type": "text"
 						},
 						{
 							"key": "description",
-							"value": "sfdfdfd fdfdsfg",
+							"value": "Android phone",
 							"type": "text"
 						},
 						{
 							"key": "stock",
 							"value": "2",
 							"type": "text"
-						},
-						{
-							"key": "images",
-							"type": "file",
-							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 10.41.00 AM.png",
-							"disabled": true
 						}
 					]
 				},
@@ -365,13 +333,7 @@
 					]
 				},
 				"method": "DELETE",
-				"header": [
-					{
-						"key": "authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmYTliMzgyZTFmYWNkNDdhYjdjMzAiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMTY3NGI0MjdiNzU0NWJmZjY3MWRjNDk2OTM1M2ZjOTAxY2E2ZmMzYmQzYTYyNzE0ODcxNWRlOTZlNjQ3ZDNkYzhlYjhkYjRhYWViNmExMDY3MTlmZjYzNTVjYjEwNTNlNGE4ZCIsImlhdCI6MTY5NjU3Njc5MywiZXhwIjoxNzI4MTEyNzkzfQ.LsHHadmZuenkJON7GtszlY_9LzFBAsUtRNlGlCIZknc",
-						"type": "text"
-					}
-				],
+				"header": [],
 				"body": {
 					"mode": "raw",
 					"raw": ""
@@ -397,54 +359,28 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZWZjZmUyNTViZDhjYTRhNTMwY2QiLCJlbWFpbCI6InNtaXRzb2hhZ2l5YTgxQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwidG9rZW4iOiI5MTJhZTBhYTg4NDQ4ZDJkNzEzNzA2N2I1NDdkNzI5ZWYxODBhYmJmMjg4ZDI2ZjY2MGNlMmMzNDI3MjRkNjczYTdiZTc0ZTEwN2JjMDFlMGRkMTk4YzExNTg0ZGU5Y2Y5M2RjIiwiaWF0IjoxNjk2NTkxODIzLCJleHAiOjE2OTY2NzgyMjN9.mi95Sz3aAtbfC0_nx8vtcPfLWLHY1sO9HjT7jhjVnSM",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [
 					{
-						"key": "authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmOWNlODUxNTU2ZTQ3NmFmNjMzN2IiLCJlbWFpbCI6InNtaXRzb2hhZ2l5YTgxQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwidG9rZW4iOiJhZTIxYTM5MjBkN2NkNGMzODUyNWQ0MzBhZjJlODliOWI1YmJmMGNhMDg0MjJkZGQzMzNiMWNmYzQ4N2NjM2E4MDQzMGEzY2U4MjBiZjNlNGU1MzhjMmI0ZmRmNWNhYWRlNmNhIiwiaWF0IjoxNjk2NTgxOTQ0LCJleHAiOjE3MjgxMTc5NDR9.M6mvhsQCBRES81XcMTCbPOfUK3F9pQGCmkh7Cb3JgXM",
-						"type": "text"
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
 					}
 				],
 				"body": {
 					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "images",
-							"type": "file",
-							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 9.53.13 AM.png"
-						},
-						{
-							"key": "title",
-							"value": "kshfdnfdf",
-							"type": "text"
-						},
-						{
-							"key": "price",
-							"value": "10",
-							"type": "text"
-						},
-						{
-							"key": "discountPrice",
-							"value": "5",
-							"type": "text"
-						},
-						{
-							"key": "description",
-							"value": "sfdfdfd fdfdsfg",
-							"type": "text"
-						},
-						{
-							"key": "stock",
-							"value": "2",
-							"type": "text"
-						},
-						{
-							"key": "images",
-							"type": "file",
-							"src": "/Users/sotsys211/Desktop/Screenshot 2023-09-11 at 10.41.00 AM.png",
-							"disabled": true
-						}
-					]
+					"formdata": []
 				},
 				"url": {
 					"raw": "localhost:3000/admin/products",
@@ -480,7 +416,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZGM1ZTM3N2IzOWNmNjk4YzE3NWUiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInRva2VuIjoiMjliOGRmY2IzOWFiODAzNDdhYzJiOGNlNzczNzM3NmFiYWRmZjJjYzQxMDBhZWI5MjU3ZjllMTEzYjNhYWE0MzA4ZDZlYjk3M2EzZmMzNzVhYzJhMjZlNDJlMmY2MDllYzY2MSIsImlhdCI6MTY5NjU4Njk4OSwiZXhwIjoxNjk2NjczMzg5fQ.nm-FCrKcTd4cDu8_wkOKXaeFf8Vwq-SDABAv9zneVZ8",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTFmZWZjZmUyNTViZDhjYTRhNTMwY2QiLCJlbWFpbCI6InNtaXRzb2hhZ2l5YTgxQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwidG9rZW4iOiI5MTJhZTBhYTg4NDQ4ZDJkNzEzNzA2N2I1NDdkNzI5ZWYxODBhYmJmMjg4ZDI2ZjY2MGNlMmMzNDI3MjRkNjczYTdiZTc0ZTEwN2JjMDFlMGRkMTk4YzExNTg0ZGU5Y2Y5M2RjIiwiaWF0IjoxNjk2NTkxODIzLCJleHAiOjE2OTY2NzgyMjN9.mi95Sz3aAtbfC0_nx8vtcPfLWLHY1sO9HjT7jhjVnSM",
 							"type": "string"
 						}
 					]
@@ -498,20 +434,19 @@
 					"mode": "urlencoded",
 					"urlencoded": [
 						{
-							"key": "product_id",
-							"value": "651fdd23aff6e02d1055d2dd",
-							"type": "text"
-						},
-						{
 							"key": "quantity",
-							"value": "1",
+							"value": "",
 							"type": "text"
 						},
 						{
-							"key": "",
+							"key": "total_price",
 							"value": "",
-							"type": "text",
-							"disabled": true
+							"type": "text"
+						},
+						{
+							"key": "product_id",
+							"value": "",
+							"type": "text"
 						}
 					]
 				},

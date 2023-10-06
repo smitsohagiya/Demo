@@ -14,7 +14,8 @@ export default function ProductValidate(methodName: String) {
     case "purchase": {
       return [
         body('product_id').notEmpty().withMessage('Product id required'),
-        body('quantity').notEmpty().withMessage('quantity is required')
+        body('quantity').notEmpty().withMessage('quantity is required'),
+        body('total_price').notEmpty().withMessage('Total price is required'),
       ];
     }
     default: {
